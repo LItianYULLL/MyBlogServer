@@ -1,0 +1,13 @@
+MyBlog博客项目
+ 此项目是一个前后端分享的项目，前端采用vue   后台采用Java Web
+
+数据库表结构： user表    blog表   reply表
+
+filter
+    CharsetFilter:过滤器，处理字符编码集
+    HeaderTypeFilter:主要设置服务器端向前端返回的头类型为：json
+
+util
+    DbHelper:对数据库操作的工具类
+    对数据库的操作，我们在这个项目中使用第三方的库 DButils 需要查看文档
+    https://blog.csdn.net/simonforfuture/article/details/90480147
